@@ -1,10 +1,12 @@
 .Home{
     width: 100%;
     /* background-color: aqua; */
-    height: 80vh;
+    height: 70vh;
     /* margin-top: 7vh; */
     position: absolute;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 .Home video{
     position: absolute;
@@ -19,8 +21,8 @@
     /* background-image: url("../midias/arrow.gif"); */
     position: absolute;
     z-index: 5;
-    left: 33%;
-    opacity: 0.5;
+    /* left: 33%; */
+    /* opacity: 0.5; */
     /* top: 55%; */
     bottom: 0%;
     /* border-radius: 100%; */
