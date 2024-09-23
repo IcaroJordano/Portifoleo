@@ -1,0 +1,27 @@
+.Home{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 80vh;
+    /* margin-top: 7vh; */
+    position: absolute;
+    overflow: hidden;
+}
+.Home video{
+    position: absolute;
+    width: 100%;
+    /* height: 50vh; */
+}
+.Home .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgba(255, 255, 255, 0.404); */
+    /* background-image: url("../midias/arrow.gif"); */
+    position: absolute;
+    z-index: 5;
+    left: 33%;
+    opacity: 0.5;
+    /* top: 55%; */
+    bottom: 0%;
+    /* border-radius: 100%; */
+}
