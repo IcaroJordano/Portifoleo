@@ -1,0 +1,17 @@
+.Navbar{
+    /* background-color: #f8f9fa; */
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    border-bottom: 1px solid rgba(187, 187, 187, 0.308);
+    display: flex;
+    align-items: center;
+}
+.Navbar p{
+    /* color:#5a189a; */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    /* width: 20%; */
+    margin: 0 0 0 5%;
+    }
