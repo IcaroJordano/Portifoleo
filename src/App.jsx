@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar"
 function App() {
   const [tema,setTema]=useState(false)
   return (
-    <div id='App' className={`${tema?'dark':"light"}`}>
+    <div className={` App ${tema?'dark':"light"}`}>
       <Navbar setTema={setTema} tema={tema}></Navbar>
       <Home ></Home>
     </div>
