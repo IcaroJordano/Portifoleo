@@ -7,6 +7,11 @@ import { CiMenuFries } from "react-icons/ci";
 import { GoSun } from "react-icons/go";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
+import { GoHome } from "react-icons/go";
+import { BsPeople} from "react-icons/bs";
+import { BsPerson } from "react-icons/bs";
+import { BsRocketTakeoff } from "react-icons/bs";
+import { BsPersonCircle } from "react-icons/bs";
 
 
 export function Navbar({setTema,tema}) {
@@ -14,13 +19,20 @@ export function Navbar({setTema,tema}) {
         setTema(!tema)
     }
     return(
+        <>
+        <nav className='NavbarMobile'>
+            <FaMoon style={{'display':tema?'none':'flex'}}  onClick={mudar}></FaMoon>
+            <GoSun style={{'display':tema?'flex':'none'}}  onClick={mudar}>  </GoSun>
+            <CiMenuFries id='menu'></CiMenuFries>                
+            
+        </nav>
         <nav className={`Navbar ${tema?'dark':"light"}`}>
-            <p>Icaro Jordano<br></br><span>Web Developer</span></p>
+            {/* <p>Icaro Jordano<br></br><span>Web Developer</span></p> */}
             <div className='links'>
-                <a href="">Home</a>
-                <a href="">Sobre mim</a>
-                <a href="">Projects</a>
-                <a href="">Contact</a>
+                <a href=""> <GoHome></GoHome> Home</a>
+                <a href=""><BsPerson ></BsPerson> Sobre mim</a>
+                <a href=""><BsRocketTakeoff></BsRocketTakeoff> Projetos</a>
+                <a href=""><BsPeople></BsPeople> Contato</a>
 
             </div>
             <div className="icons">
@@ -28,8 +40,8 @@ export function Navbar({setTema,tema}) {
                 <FaLinkedinIn className='redes' ></FaLinkedinIn>
                 <FaMoon style={{'display':tema?'none':'flex'}}  onClick={mudar}></FaMoon>
                 <GoSun style={{'display':tema?'flex':'none'}}  onClick={mudar}>  </GoSun>
-                <CiMenuFries id='menu'></CiMenuFries>                
             </div>
         </nav>
+        </>
     )
 }
