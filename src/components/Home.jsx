@@ -15,7 +15,7 @@ export function Home() {
             <div className="apresentacao">
                 <h1>Icaro <span>Jordano</span></h1>
                 <h2>Frontend Devoloper</h2>
-                <p>"Crie sua propria sorte, o sucesso vem de oportunidades e de preparacao"</p>
+                <p>Construa sua propria sorte, o sucesso e o encontro entre oportunidade e de preparacao</p>
             </div>
 
             <div className="image">

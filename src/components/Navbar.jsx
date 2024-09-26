@@ -30,7 +30,7 @@ export function Navbar({setTema,tema}) {
             {/* <p>Icaro Jordano<br></br><span>Web Developer</span></p> */}
             <div className='links'>
                 <a href=""> <GoHome></GoHome> Home</a>
-                <a href=""><BsPerson ></BsPerson> Sobre mim</a>
+                <a href=""><BsPerson ></BsPerson> Sobre</a>
                 <a href=""><BsRocketTakeoff></BsRocketTakeoff> Projetos</a>
                 <a href=""><BsPeople></BsPeople> Contato</a>
 

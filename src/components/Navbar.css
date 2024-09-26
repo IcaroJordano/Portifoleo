@@ -70,7 +70,7 @@
     position: fixed;
     /* border: solid 1px rgba(128, 128, 128, 0.596); */
     /* background-color: aqua; */
-    top: 1%;
+    top:3%;
     backdrop-filter: blur(100px);
     border-radius: 15px;
     right: 2%;
@@ -78,7 +78,7 @@
     justify-content: space-around;
 }
 .NavbarMobile svg{
-    scale: 1.6;
+    scale: 1.5;
     border: solid 1px rgba(128, 128, 128, 0.596);
     padding: 4%;
     border-radius: 15px;
@@ -93,7 +93,7 @@
         display: none;
     }
 }
-@media (min-width:768px){
+@media (min-width:769px){
     .NavbarMobile{
         display: none;
     }
