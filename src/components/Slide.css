@@ -1,0 +1,33 @@
+.Slide .logos{
+    color: #4b5563;
+    border: 2px #6b72802c solid;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+    padding: 30px 0;
+    white-space: nowrap;
+}
+.Slide .logos:hover .logos_slide{
+    animation-play-state: paused;
+}
+.Slide .logos_slide{
+    display: inline-block;
+    animation: infinite linear 15s slide;
+}
+.dark .Slide svg{
+    color: rgba(255, 255, 255, 0.781);
+}
+.Slide .logos_slide svg{
+    scale: 4;
+    margin: 0% 60px;
+}
+
+@keyframes slide{
+    from{
+        transform: translateX(x);
+    }
+    to{
+        transform: translateX(-100%);
+
+    }
+}

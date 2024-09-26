@@ -5,7 +5,8 @@
     /* background-color: aqua; */
 }
 .About .logos{
-    border: 2px rgba(128, 128, 128, 0.295) solid;
+    color: #4b5563;
+    border: 2px #6b72802c solid;
     border-left: none;
     border-right: none;
     overflow: hidden;
