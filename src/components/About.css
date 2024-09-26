@@ -1,0 +1,59 @@
+.About{
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+.About .logos{
+    border: 2px rgba(128, 128, 128, 0.295) solid;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+    padding: 30px 0;
+    /* background-color: aqua; */
+    white-space: nowrap;
+}
+.About .logos:hover .logos_slide{
+    animation-play-state: paused;
+}
+.About .logos_slide{
+    display: inline-block;
+    animation: infinite linear 15s slide;
+}
+.dark .About svg{
+    color: rgba(255, 255, 255, 0.781);
+}
+.About .logos_slide svg{
+    scale: 4;
+    margin: 0% 60px;
+    /* height: 50px; */
+    /* color: rgba(56, 56, 56, 0.685); */
+    /* width: 25%; */
+    /* margin-left: 10%; */
+    /* scale: 3; */
+    /* display: flex; */
+    /* background-color: blue; */
+    /* margin: 0 15%; */
+    /* animation: 30s slide infinite; */
+    /* height: 3vh; */
+    /* background-color: brown; */
+}
+/* @keyframes slide{
+    from{
+        transform: translateX(x);
+    }
+    to{
+        transform: translateX(10);
+    }
+} */
+
+
+@keyframes slide{
+    from{
+        transform: translateX(x);
+    }
+    to{
+        transform: translateX(-100%);
+
+    }
+}

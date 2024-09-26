@@ -3,6 +3,7 @@ import { useState } from "react"
 
 import { Home } from "./components/Home"
 import { Navbar } from "./components/Navbar"
+import { About } from "./components/About"
 
 function App() {
   const [tema,setTema]=useState(false)
@@ -10,6 +11,7 @@ function App() {
     <div className={` App ${tema?'dark':"light"}`}>
       <Navbar setTema={setTema} tema={tema}></Navbar>
       <Home ></Home>
+      <About></About>
     </div>
   )
 }
