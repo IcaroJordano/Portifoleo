@@ -1,10 +1,5 @@
-.About{
-    width: 100%;
-    overflow: hidden;
-    height: 100vh;
-    /* background-color: aqua; */
-}
-.About h2{
+
+.Apresentacao h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -12,27 +7,27 @@
     padding: 5% 0 0 5%;
     color: #d4d4d4;    
 }
-.About h2 span{
+.Apresentacao h2 span{
     color:#047857;
 }
-.About h3{
+.Apresentacao h3{
     margin: 0%;
     font-weight: 400;
     padding: 0% 0 0 5%;
     font-size: 31px;
 }
-.dark .About h3{
+.dark .Apresentacao h3{
     color: #d4d4d4;
 }
-.About h3 span{
+.Apresentacao h3 span{
     padding: 1%;
     font-size: 25px;
     border-radius: 45px;
     color: #047857;
 }
-.About p{
+.Apresentacao p{
     padding: 0% 0 0 5%;
 }
-.dark .About p{
+.dark .Apresentacao p{
     color: #d4d4d4;
 }
