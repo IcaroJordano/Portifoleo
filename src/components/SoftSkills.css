@@ -1,6 +1,5 @@
 .soft_skills{
     /* background-color: blue; */
-    margin: 5% 0;
 }
 .soft_skills h2{
     color: #3f3f46;
@@ -8,15 +7,16 @@
     display: flex;
     /* padding: 0%; */
     font-size: 30px;
+    /* padding: 0 5%; */
 }
 .dark .soft_skills h2{
     color: white;
 }   
 .dark .soft_skills h2 span{
     color: #a3a3a33f;
+    padding-left: 1%;
 }
-.soft_skills h2 span{
-    padding: 0 3%;
-    color: #d4d4d8;
+.soft_skills h2 {
+    /* color: #d4d4d8; */
     /* padding-bottom: 15%; */
 }
