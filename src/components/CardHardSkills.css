@@ -1,0 +1,21 @@
+.card_hard_skills{
+    width: 35vw;
+    height: 35vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 5% 0% 5% 10vw;
+    background-color: white;
+    position: relative;
+}
+.card_hard_skills img{
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    scale: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

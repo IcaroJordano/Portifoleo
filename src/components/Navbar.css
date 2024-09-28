@@ -64,6 +64,7 @@
 }
 
 .NavbarMobile{
+    z-index: 10;
     width: 25%;
     height: 6vh;
     display: flex;
