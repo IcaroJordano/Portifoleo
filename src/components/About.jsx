@@ -2,8 +2,8 @@ import "./About.css"
 
 import { Apresentacao } from "./About/Apresentacao"
 import { HardSkills } from "./About/HardSkills"
-import { Slide } from "./Slide"
-import { SoftSkils } from "./SoftSkills"
+import { Slide } from "./About/Slide"
+import { SoftSkils } from "./About/SoftSkills"
 
 
 export function About() {
