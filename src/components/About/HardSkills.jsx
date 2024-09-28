@@ -1,5 +1,5 @@
 import "./HardSkills.css"
-import { CardHardSkills } from "./CardHardSkills";
+import { CardHardSkills } from "../CardHardSkills";
 
 export function HardSkills() {
     return(
