@@ -1,5 +1,4 @@
 .App{
-  width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 0%;
   margin: 0%;
@@ -9,4 +8,15 @@
 }
 .dark{
   background-color:#171717;
+}
+::-webkit-scrollbar{
+  width: 4px;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 5%;
+  color: #10b981be;
+  background-color: #10b981be;
+}
+html{
+  scroll-behavior: smooth;
 }

@@ -5,3 +5,15 @@
     align-items: center;
     /* background-color: aquamarine; */
 }
+.metodologias .titulo{
+    color: #3f3f46;
+    margin: 0;
+    width: 90%;
+    text-align: left;
+    text-justify: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dark .metodologias .titulo{
+    color: white;
+}
