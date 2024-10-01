@@ -1,5 +1,5 @@
 .card_projects{
-    margin: 0 0 5% 0;
+    margin: 0 0 5% 7%;
     width: 86vw;
     display: flex;
     flex-direction: column;
@@ -8,6 +8,7 @@
     /* align-items: center; */
     /* padding-bottom: 10%; */
     border-radius: 5%;
+    
     /* background-color: #ececec; */
     border: solid 1px rgba(197, 197, 197, 0.315);
     position: relative;

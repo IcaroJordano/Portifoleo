@@ -3,7 +3,7 @@ import './CardMetodologias.css'
 export function CardMetodologias({title, children}) {
     return(
         <div className="CardMetodologias">
-            <div className="title">
+            <div className="top">
                 <span className='icon' >{children}</span>
                 <h2>{title}</h2>
             </div>

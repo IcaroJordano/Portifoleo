@@ -1,5 +1,5 @@
 .card_soft_skills{
-    margin: 10% auto;
+    margin: 0% auto 10% auto;
     width: 90vw;
     flex-wrap: wrap;
 }
@@ -12,6 +12,7 @@
     margin: 0%;
     padding: 0;
     font-size: 25px;    
+    border: none;
 }
 .light .card_soft_skills h2{
     font-size: 25px;    

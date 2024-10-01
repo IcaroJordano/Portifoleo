@@ -1,5 +1,6 @@
 import "./CardSoftSkills.css"
 
+
 export function CardSoftSkills({image,color,titulo}) {
     console.log({color})
     return(
