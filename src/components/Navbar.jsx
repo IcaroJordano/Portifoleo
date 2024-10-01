@@ -29,10 +29,10 @@ export function Navbar({setTema,tema}) {
         <nav className={`Navbar ${tema?'dark':"light"}`}>
             {/* <p>Icaro Jordano<br></br><span>Web Developer</span></p> */}
             <div className='links'>
-                <a href=""> <GoHome></GoHome> Home</a>
-                <a href=""><BsPerson ></BsPerson> Sobre</a>
-                <a href=""><BsRocketTakeoff></BsRocketTakeoff> Projetos</a>
-                <a href=""><BsPeople></BsPeople> Contato</a>
+                <a href="#Home"> <GoHome></GoHome> Home</a>
+                <a href="#Sobre"><BsPerson ></BsPerson> Sobre</a>
+                <a href="#Projetos"><BsRocketTakeoff></BsRocketTakeoff> Projetos</a>
+                <a href="#Contact"><BsPeople></BsPeople> Contato</a>
 
             </div>
             <div className="icons">

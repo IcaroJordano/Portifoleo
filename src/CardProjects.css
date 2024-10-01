@@ -1,0 +1,114 @@
+.card_projects{
+    margin: 0 0 5% 0;
+    width: 86vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    /* align-items: center; */
+    /* padding-bottom: 10%; */
+    border-radius: 5%;
+    /* background-color: #ececec; */
+    border: solid 1px rgba(197, 197, 197, 0.315);
+    position: relative;
+    /* background-color: rgba(211, 211, 211, 0.555); */
+}
+.card_projects .tags :hover{
+    /* color:#047857; */
+    background-color: #4ade80;
+}
+.dark .card_projects{
+    background-color: #1b1b1b;
+}
+.card_projects img{
+    max-height: 50vh;
+    margin: 3% 3%;
+    /* zoom: 5; */
+    /* border-top-left-radius: 5%;
+    border-top-right-radius: 5%; */
+    backdrop-filter: opacity(20%);
+    object-fit: cover;
+    width: 94%;
+    border-radius: 5%;
+    /* position: absolute; */
+    backdrop-filter: grayscale(30%);
+}
+.card_projects .tags{
+    /* overflow-x: scroll; */
+    /* background-color: aqua; */
+    width: 70%;
+    /* background-color: #262626; */
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    margin:0;
+    margin: 3% 3%;
+    padding: 0% 0 5% 2%;
+}
+.card_projects span{
+    /* background-color:#038d66dc; */
+    /* width: 15vw; */
+    /* color:#047857; */
+    /* background-color: aqua; */
+    /* border: solid 1px black; */
+    padding: 1.5% 4%;
+    font-size: 80%;
+    border-radius: 15px;
+    margin: 0% 5% 5% 0;
+    background-color: rgba(189, 188, 188, 0.26);
+    /* background-color:#6fe99ca8; */
+    /* background-color:#6fe99ca8; */
+    /* background-color: #64646446; */
+    color: #1b1b1b7c;
+    /* color: white; */
+    font-weight: 500;
+    font-size: medium;
+}
+.card_projects .tags :hover{
+    /* background-color: #64646446; */
+}
+.dark .card_projects span{
+    /* border: white solid 1px; */
+    background-color: rgba(78, 78, 78, 0.178);
+
+    color: rgba(255, 255, 255, 0.596);
+}
+.light .card_projects h2{
+    font-size: 22px;
+    /* font-size: larger; */
+    /* margin: 5% 0 3% 0 ; */
+    margin: 3% 5% ;
+    text-align: left;
+    width: 100%;
+    /* padding: 0% 0 0 10%; */
+    font-weight: 500;
+    /* background-color: aqua; */
+}
+.dark .card_projects h2{
+    font-size: 22px;
+    font-weight: 500;
+    /* background-color: aqua; */
+    width: 100%;
+    margin: 3% 5% ;
+    /* margin: 0%; */
+    /* padding-left: 10%; */
+    color: white;
+}
+.card_projects svg{
+    position: absolute;
+    z-index: 5;
+    scale: 1.4;
+    color: white;
+    border-radius: 45px;
+    padding: 2%;
+    background-color:#262626;
+    backdrop-filter: blur(10px);
+    /* transform: rotate(270deg); */
+    bottom: 4%;
+}
+.card_projects .ver_mais{
+    right: 5%;
+}
+.card_projects .deploy{
+    right: 20%;
+}

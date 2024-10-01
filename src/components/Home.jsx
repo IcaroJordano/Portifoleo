@@ -11,7 +11,7 @@ import { FaGithub } from "react-icons/fa";
 export function Home() {
     const isSmallDevice = useMediaQuery("only screen and (min-width : 768px)");
     return(
-        <section className="Home" >
+        <section className="Home" id="Home">
             <div className="apresentacao">
                 <h1>Icaro <span>Jordano</span></h1>
                 <h2>Frontend Devoloper</h2>

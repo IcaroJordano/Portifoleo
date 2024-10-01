@@ -8,7 +8,7 @@ export function CardMetodologias({title, children}) {
                 <h2>{title}</h2>
             </div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus hic earum consequatur officiis molestiae</p>
-            <a href="">View Example</a>
+            <a href="#Slide">View Example</a>
         </div>
     )
 }

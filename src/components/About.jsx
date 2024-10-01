@@ -9,7 +9,7 @@ import { SoftSkils } from "./About/SoftSkills"
 
 export function About() {
     return(
-        <section className="About">
+        <section className="About" id="Sobre">
             <Slide></Slide>
             <Apresentacao></Apresentacao>
             <SoftSkils></SoftSkils>

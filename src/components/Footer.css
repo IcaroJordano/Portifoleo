@@ -1,0 +1,6 @@
+.Footer{
+    text-align: center;
+}
+.dark .Footer{
+    color: white;
+}

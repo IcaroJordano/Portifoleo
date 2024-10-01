@@ -1,0 +1,23 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.projects h2{
+    /* background-color: aqua; */
+    width: 86%;
+}
+.projects h2{
+    color: black;
+    display: flex;
+    font-size: 30px;
+}
+.dark .projects h2{
+    color: white;
+}
+.projects h2 span{
+    padding: 0 3%;
+    color:#047857;
+}

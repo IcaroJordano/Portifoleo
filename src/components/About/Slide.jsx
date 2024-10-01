@@ -9,7 +9,7 @@ import { TbBrandJavascript } from "react-icons/tb";
 
 export function Slide() {
     return(
-        <section className="Slide">
+        <section id="Slide" className="Slide">
             <div className="logos">
                 <div className="logos_slide">
                     <TiHtml5></TiHtml5>
