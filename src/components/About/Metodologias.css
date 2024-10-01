@@ -1,9 +1,7 @@
 .metodologias{
-    /* height: 300vh; */
     display:flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: aquamarine; */
 }
 .metodologias .titulo{
     color: #3f3f46;

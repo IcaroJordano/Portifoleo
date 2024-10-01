@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import './Navbar.css'
 
 import { FaMoon } from "react-icons/fa";
@@ -11,7 +9,6 @@ import { GoHome } from "react-icons/go";
 import { BsPeople} from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { BsRocketTakeoff } from "react-icons/bs";
-import { BsPersonCircle } from "react-icons/bs";
 
 
 export function Navbar({setTema,tema}) {

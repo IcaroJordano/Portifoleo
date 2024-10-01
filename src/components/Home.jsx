@@ -1,23 +1,15 @@
 import "./Home.css"
-import video from "../midias/home-video-horizontal.mp4"
+
 import avatar from '../midias/avatar.jpeg'
 
-import { BsPeople} from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 
-// import {useMediaQuery} from "@usehooks-ts"
-import { useMediaQuery } from "@uidotdev/usehooks";
-
-// import { FaGithub } from "react-icons/fa";
-
 
 export function Home() {
-    const isSmallDevice = useMediaQuery("only screen and (min-width : 768px)");
     return(
         <section className="Home" id="Home">
             <div className="image">

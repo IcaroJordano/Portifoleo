@@ -1,6 +1,7 @@
-import { CardSoftSkills } from "./CardSoftSkills"
-// import "../../midias/speaking.png"
 import "./SoftSkills.css"
+
+import { CardSoftSkills } from "./CardSoftSkills"
+
 import oratoria from '../../midias/speaking.png'
 
 export function SoftSkils() {

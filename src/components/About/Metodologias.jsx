@@ -1,14 +1,10 @@
-import { CardMetodologias } from './CardMetodologias'
 import './Metodologias.css'
-import { BsRocketTakeoff } from "react-icons/bs";
+
+import { CardMetodologias } from './CardMetodologias'
 
 import { AiOutlinePullRequest } from "react-icons/ai";
 import { AiOutlineBranches } from "react-icons/ai";
 import { BiMobileAlt } from "react-icons/bi";
-
-
-import { FaGitAlt } from "react-icons/fa";
-
 
 export function Metodologias() {
     return(
