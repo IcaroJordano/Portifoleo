@@ -50,7 +50,8 @@
 }
 
 .Contact .top svg{
-    color:#4ade80;
+    /* color:#4ade80; */
+    color: #10b981be;
     font-size: 35px;
     margin: 4%;
 }

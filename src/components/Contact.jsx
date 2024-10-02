@@ -37,7 +37,7 @@ export function Contact() {
                     <FaLinkedinIn></FaLinkedinIn>              
                     <h4>Linkedin</h4>
                 </div>
-                <a href="https://www.linkedin.com/in/icaro-jordano/" target="blank">https://www.linkedin.com/in/icaro-jordano/</a>
+                <a href="https://www.linkedin.com/in/icaro-jordano/" target="blank">linkedin.com/in/icaro-jordano/</a>
             </div>
 
 
@@ -46,7 +46,7 @@ export function Contact() {
                     <FaGithub></FaGithub>              
                     <h4>Github</h4>
                 </div>
-                <a href="https://github.com/IcaroJordano" target="blank">https://github.com/IcaroJordano</a>
+                <a href="https://github.com/IcaroJordano" target="blank">github.com/IcaroJordano</a>
             </div>
             </section>
     )
