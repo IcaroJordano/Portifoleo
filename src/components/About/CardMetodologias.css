@@ -8,6 +8,9 @@
     padding: 0%;
     background-color: #ecececb6;
     color: black;
+    animation:apper 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
 }
 .dark .CardMetodologias{
     border: none;

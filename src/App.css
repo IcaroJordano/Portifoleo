@@ -3,8 +3,13 @@
   padding: 0%;
   margin: 0%;
 }
+.App *{
+  /* animation:apper 5s linear;
+  animation-timeline: view();
+  animation-range: entry 50%; */
+}
 *{
-  transition: 0.5s  ease;
+  /* transition: 0.5s  ease; */
 }
 .light{
   background-color: #F5F5F7;
@@ -24,4 +29,23 @@
 }
 html{
   scroll-behavior: smooth;
+}
+
+@keyframes apper{
+  from{
+    opacity: 0;
+    scale: 0.5;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
+@keyframes flip{
+  from{
+    transform: rotateY('180');
+  }
+  to{
+    transform: rotateY('180');
+  }
 }

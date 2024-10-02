@@ -2,6 +2,9 @@
     /* padding-top: 7vh; */
     display: flex;
     flex-direction: column;
+    animation:apper 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
 }
 .hard_skills .Logos{
     flex-wrap: wrap;

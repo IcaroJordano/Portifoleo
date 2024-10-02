@@ -9,8 +9,15 @@
     margin: 5% 0% 5% 10vw;
     background-color: white;
     position: relative;
+    animation:apper 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
 }
 .card_hard_skills img{
+
+    animation:apper 5s linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
     position: absolute;
     width: 25vw;
     height: 25vw;

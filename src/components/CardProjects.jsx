@@ -10,7 +10,7 @@ import { AiOutlineLink } from "react-icons/ai";
 
 export function CardProjects() {
     return(
-        <div className="card_projects">
+        <div className="card_projects zoom-in">
             <img src={'https://miro.medium.com/v2/resize:fit:1400/1*pVxCmIW9kV28plnkC9mpMA.jpeg'} alt="" />
             <h2>Titulo do projeto</h2>
             <div className="tags">
