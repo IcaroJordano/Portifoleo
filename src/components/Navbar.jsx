@@ -9,6 +9,7 @@ import { GoHome } from "react-icons/go";
 import { BsPeople} from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { BsRocketTakeoff } from "react-icons/bs";
+import { NavbarMobile } from './NavbarMobile';
 
 
 export function Navbar({setTema,tema}) {
@@ -17,7 +18,8 @@ export function Navbar({setTema,tema}) {
     }
     return(
         <>
-        <nav className='NavbarMobile'>
+        <NavbarMobile setTema={setTema} tema={tema}></NavbarMobile>
+        {/* <nav className='NavbarMobile'>
             <p>Icaro Jordano<br></br><span>Web Developer</span></p>
             <div className="icons">
                 <FaMoon style={{'display':tema?'none':'flex'}}  onClick={mudar}></FaMoon>
@@ -25,7 +27,7 @@ export function Navbar({setTema,tema}) {
                 <CiMenuFries id='menu'></CiMenuFries>                
             
             </div>
-        </nav>
+        </nav> */}
         <nav className={`Navbar ${tema?'dark':"light"}`}>
             <div className='links'>
                 <a href="#Home"> <GoHome></GoHome> Home</a>
