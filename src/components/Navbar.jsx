@@ -18,13 +18,15 @@ export function Navbar({setTema,tema}) {
     return(
         <>
         <nav className='NavbarMobile'>
-            <FaMoon style={{'display':tema?'none':'flex'}}  onClick={mudar}></FaMoon>
-            <GoSun style={{'display':tema?'flex':'none'}}  onClick={mudar}>  </GoSun>
-            <CiMenuFries id='menu'></CiMenuFries>                
+            <p>Icaro Jordano<br></br><span>Web Developer</span></p>
+            <div className="icons">
+                <FaMoon style={{'display':tema?'none':'flex'}}  onClick={mudar}></FaMoon>
+                <GoSun style={{'display':tema?'flex':'none'}}  onClick={mudar}>  </GoSun>
+                <CiMenuFries id='menu'></CiMenuFries>                
             
+            </div>
         </nav>
         <nav className={`Navbar ${tema?'dark':"light"}`}>
-            {/* <p>Icaro Jordano<br></br><span>Web Developer</span></p> */}
             <div className='links'>
                 <a href="#Home"> <GoHome></GoHome> Home</a>
                 <a href="#Sobre"><BsPerson ></BsPerson> Sobre</a>
