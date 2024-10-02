@@ -9,7 +9,7 @@ import { BiCodeBlock } from "react-icons/bi";
 
 export function Metodologias() {
     return(
-    <section className="metodologias">
+    <section className="metodologias" id='Metodologias'>
         {/* <h2 className='titulo'><span className="line"> ________________________</span> <br></br>Metodologias e Praticas de Desenvolvimento.  </h2> */}
         <h2 class="title"><BiCodeBlock></BiCodeBlock> Metodologias</h2>
 

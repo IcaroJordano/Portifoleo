@@ -10,15 +10,22 @@ import { BsPeople} from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { BsRocketTakeoff } from "react-icons/bs";
 import { NavbarMobile } from './NavbarMobile';
+import { MenuLateral } from './MenuLateral';
+import { useState } from 'react';
 
 
 export function Navbar({setTema,tema}) {
     function mudar() {
         setTema(!tema)
     }
+    function ativarMenu(){
+        setAtivo(boolean(ativo))
+    }
+    const [ativo,setAtivo]=useState(false)
     return(
         <>
-        <NavbarMobile setTema={setTema} tema={tema}></NavbarMobile>
+        <MenuLateral valor={ativo}></MenuLateral>
+        <NavbarMobile setTema={setTema} ativo={ativo} setAtivo={setAtivo} tema={tema}></NavbarMobile>
         {/* <nav className='NavbarMobile'>
             <p>Icaro Jordano<br></br><span>Web Developer</span></p>
             <div className="icons">

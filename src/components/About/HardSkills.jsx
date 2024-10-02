@@ -5,7 +5,7 @@ import { BiCodeAlt } from "react-icons/bi";
 
 export function HardSkills() {
     return(
-        <section className="hard_skills">
+        <section className="hard_skills" id="HardSkills">
             <h2 class="soft_skills_title"><BiCodeAlt></ BiCodeAlt> Hard Skills</h2>
             <div className="Logos">
                 <CardHardSkills  title={'HTML'} image={'https://cdn-icons-png.flaticon.com/128/174/174854.png'} ></CardHardSkills>

@@ -3,6 +3,9 @@
   padding: 0%;
   margin: 0%;
 }
+*{
+  transition: 0.5s  ease;
+}
 .light{
   background-color: #F5F5F7;
 }

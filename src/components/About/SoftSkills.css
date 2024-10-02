@@ -9,7 +9,9 @@
 /* .soft_skills h2 span{
     padding: 0 3%;
 } */
-
+.soft_skills {
+    padding-top: 3vh;
+}
 .soft_skills h2{
     border: solid gray 1px;
     width: 25%;
