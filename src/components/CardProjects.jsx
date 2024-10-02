@@ -1,5 +1,6 @@
 import "./CardProjects.css"
-import image from "./midias/image-produto.jpeg"
+
+// import image from "./midias/image-produto.jpeg"
 
 import { LuArrowUpRight } from "react-icons/lu";
 

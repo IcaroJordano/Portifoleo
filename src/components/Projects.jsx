@@ -1,4 +1,4 @@
-import { CardProjects } from "../CardProjects"
+import { CardProjects } from "./CardProjects"
 import "./Projects.css"
 
 import { BsRocketTakeoff } from "react-icons/bs";
