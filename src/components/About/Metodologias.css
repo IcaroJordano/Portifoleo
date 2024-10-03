@@ -35,3 +35,12 @@
 .dark .metodologias .title{
     color: white;
 }
+
+
+@media(min-width:768px){
+    .metodologias .title{
+        margin: 0% 0 0 5%;
+        width: 15%;
+        font-size: larger;
+    }
+}

@@ -11,7 +11,7 @@ export function Metodologias() {
     return(
     <section className="metodologias">
         {/* <h2 className='titulo'><span className="line"> ________________________</span> <br></br>Metodologias e Praticas de Desenvolvimento.  </h2> */}
-        <h2 class="title"><BiCodeBlock></BiCodeBlock> Soft Skills</h2>
+        <h2 class="title"><BiCodeBlock></BiCodeBlock> Metodologias</h2>
 
         <CardMetodologias title={'GIT FLOW'}>
             <AiOutlineBranches></AiOutlineBranches>
