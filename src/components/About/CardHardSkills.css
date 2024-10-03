@@ -19,3 +19,16 @@
     justify-content: center;
     align-items: center;
 }
+
+
+@media(min-width:768px){
+    .card_hard_skills{
+        width: 10vw;
+        height: 10vw;
+        margin: 5% 2%;
+    }
+    .card_hard_skills img{
+        width: 7vw;
+        height: 7vw;
+    }
+}

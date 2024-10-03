@@ -1,6 +1,7 @@
 .hard_skills{
     display: flex;
     flex-direction: column;
+
 }
 .hard_skills .Logos{
     flex-wrap: wrap;
@@ -30,6 +31,17 @@
 @media(min-width:768px){
     .hard_skills h2{
         width: 15%;
+        margin: 5% 0% 0 5%;
         font-size: larger;
+    }
+    .hard_skills{
+        /* align-items: center; */
+        /* justify-content: center; */
+    }
+    .hard_skills .Logos{
+        margin-left: 5%;
+        justify-content: space-around;
+        width: 90%;
+        /* background-color: aqua; */
     }
 }
