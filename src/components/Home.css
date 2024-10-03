@@ -126,8 +126,9 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row-reverse;
-        border: 1px solid rgba(128, 128, 128, 0.027);
-        border-radius: 15px;
+        border: 1px solid rgba(128, 128, 128, 0.219);
+        border-bottom: none;
+        /* border-radius: 15px; */
 
     }
     .Home .image{
@@ -162,6 +163,7 @@
     .Home .apresentacao h1{
         font-size: 5em;
         margin: 0%;
+        font-weight: 100;
         /* width: 75%; */
         /* text-wrap: wrap; */
     }
