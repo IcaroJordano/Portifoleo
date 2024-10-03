@@ -17,9 +17,18 @@
 
 
 @media(min-width:768px){
+    .soft_skills .cards{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        display: flex;
+        /* background-color: aqua; */
+    }
     .soft_skills h2{
         width: 15%;
         font-size: larger;
-        margin-top: 5%;
+        /* margin-top: 5%; */
+        margin: 5%;
     }
 }
