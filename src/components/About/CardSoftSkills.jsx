@@ -2,7 +2,6 @@ import "./CardSoftSkills.css"
 
 
 export function CardSoftSkills({image,color,titulo}) {
-    console.log({color})
     return(
         <div className="card_soft_skills">
             <img src={image} style={{backgroundColor:`${color}`}} alt="" />
