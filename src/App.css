@@ -22,3 +22,9 @@
 html{
   scroll-behavior: smooth;
 }
+
+@media(min-width:768px){
+  .App{
+    padding-top: 5%;
+  }
+}
