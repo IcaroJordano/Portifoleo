@@ -8,23 +8,27 @@ import { BiMobileAlt } from "react-icons/bi";
 import { BiCodeBlock } from "react-icons/bi";
 
 export function Metodologias() {
-    return(
-    <section className="metodologias">
-        {/* <h2 className='titulo'><span className="line"> ________________________</span> <br></br>Metodologias e Praticas de Desenvolvimento.  </h2> */}
-        <h2 class="title"><BiCodeBlock></BiCodeBlock> Metodologias</h2>
+    return (
+        <section className="metodologias">
+            {/* <h2 className='titulo'><span className="line"> ________________________</span> <br></br>Metodologias e Praticas de Desenvolvimento.  </h2> */}
+            <h2 class="title"><BiCodeBlock></BiCodeBlock> Metodologias</h2>
+            <div className="cards">
+                <CardMetodologias title={'GIT FLOW'}>
+                    <AiOutlineBranches></AiOutlineBranches>
+                </CardMetodologias>
 
-        <CardMetodologias title={'GIT FLOW'}>
-            <AiOutlineBranches></AiOutlineBranches>
-        </CardMetodologias>
-        
-        <CardMetodologias title={'GITHUB FLOW'}>
-            <AiOutlinePullRequest></AiOutlinePullRequest>
-        </CardMetodologias>
+                <CardMetodologias title={'GITHUB FLOW'}>
+                    <AiOutlinePullRequest></AiOutlinePullRequest>
+                </CardMetodologias>
 
-        <CardMetodologias title={'MOBILE FIRST'}>
-            <BiMobileAlt></BiMobileAlt>
-        </CardMetodologias>
+                <CardMetodologias title={'MOBILE FIRST'}>
+                    <BiMobileAlt></BiMobileAlt>
+                </CardMetodologias>
+                <CardMetodologias title={'MOBILE FIRST'}>
+                    <BiMobileAlt></BiMobileAlt>
+                </CardMetodologias>
+            </div>
 
-    </section>
+        </section>
     )
 }

@@ -39,8 +39,14 @@
 
 @media(min-width:768px){
     .metodologias .title{
-        margin: 0% 0 0 5%;
+        margin: 0% 0 2% 5%;
         width: 15%;
         font-size: larger;
+    }
+    .metodologias .cards{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }

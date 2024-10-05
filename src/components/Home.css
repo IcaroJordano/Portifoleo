@@ -125,9 +125,10 @@
         padding-top: 0%;
         display: flex;
         justify-content: space-around;
-        flex-direction: row-reverse;
-        border: 1px solid rgba(128, 128, 128, 0.219);
+        flex-direction: row;
+        /* border: 1px solid rgba(128, 128, 128, 0.219); */
         border-bottom: none;
+        padding-bottom: 5%;
         /* border-radius: 15px; */
 
     }

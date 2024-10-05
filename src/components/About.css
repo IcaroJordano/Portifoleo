@@ -33,8 +33,8 @@
 
 @media(min-width:768px){
     .About {
-        width: 80%;
-        margin: 0% 10%;
+        width: 90%;
+        margin: 0% 5%;
         border: 1px solid rgba(128, 128, 128, 0.219);
         border-top: 0px none red;
         padding-top: -1px;
