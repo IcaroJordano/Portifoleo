@@ -9,7 +9,7 @@
     /* padding-bottom: 10%; */
     border-radius: 5%;
     /* background-color: #ececec; */
-    border: solid 1px rgba(197, 197, 197, 0.315);
+    border: solid 1px rgba(197, 197, 197, 0.062);
     position: relative;
     /* background-color: rgba(211, 211, 211, 0.555); */
 }
@@ -64,8 +64,8 @@
     font-weight: 500;
     font-size: medium;
 }
-.card_projects .tags :hover{
-    /* background-color: #64646446; */
+.card_projects a :hover{
+    background-color: #4ade80;
 }
 .dark .card_projects span{
     /* border: white solid 1px; */
@@ -117,17 +117,22 @@
         /* width: 20%; */
         /* max-width: 25%; */
         margin: 2% 0;
-        width: 30%;
-        max-height: 100vh;
+        width: 28%;
+        height: 100%;
         background-color: #e5e5e55b;
         /* margin-bottom: 3%; */
         /* padding: 0%; */
         /* padding-bottom: 5%; */
     }
     .card_projects img{
-        height: 70vh;
+        /* height: 30vh; */
         max-width: 100%;
+        /* margin-top: 0%; */
         /* max-height: 60vh; */
+        margin-bottom: 0%;
+    }
+    .card_projects h2{
+        margin-top: 0%;
     }
     .card_projects a :hover{
         opacity: 0.5;
