@@ -8,10 +8,12 @@ export function Projects() {
         <section className="projects" id="Projetos"> 
             {/* <h2>Projects. <span className="line"> ____span> </h2> */}
             <h2 class="title"><BsRocketTakeoff></BsRocketTakeoff> Projetos</h2>
+            <div className="cards">
             <CardProjects></CardProjects>
             <CardProjects></CardProjects>
             <CardProjects></CardProjects>
             <CardProjects></CardProjects>
+            </div>
         </section>
     )
 }
