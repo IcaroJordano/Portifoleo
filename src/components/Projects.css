@@ -35,15 +35,16 @@
 @media(min-width:768px){
     .projects{
         /* padding: 0%; */
-        width: 90%;
-        margin-left: 5%;
+        width: 100%;
+        /* margin-left: 5%; */
         /* background-color: #047857; */
         /* flex-direction: row; */
         flex-wrap: wrap;
     }
     .projects .title{
         margin: 5% 0 2% 5%;
-        width: 10%;
+        width: 8%;
+        padding: 1% 2%;
         font-size: larger;
     }
     .projects .cards{
