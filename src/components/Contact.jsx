@@ -10,12 +10,18 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiLinkedin } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
 
+import video from "../midias/contact-video.mp4"
 
 export function Contact() {
     return(
         <section className="Contact">
             <h2 id="Contact"><BsPeople></BsPeople> Contact</h2>
             <h3>Estou disponível para novos projetos e contratações. Entre em contato e marcamos uma conversa.</h3>
+            <div className="video">
+            <video src={video} autoPlay controls loop></video>
+
+            </div>
+            <div className="cards">
             <div className="card_contact">
                 <div className="top">
                     <FaWhatsapp></FaWhatsapp>              
@@ -37,7 +43,7 @@ export function Contact() {
                     <FaLinkedinIn></FaLinkedinIn>              
                     <h4>Linkedin</h4>
                 </div>
-                <a href="https://www.linkedin.com/in/icaro-jordano/" target="blank">https://www.linkedin.com/in/icaro-jordano/</a>
+                <a href="https://www.linkedin.com/in/icaro-jordano/" target="blank">linkedin.com/in/icaro-jordano/</a>
             </div>
 
 
@@ -47,6 +53,7 @@ export function Contact() {
                     <h4>Github</h4>
                 </div>
                 <a href="https://github.com/IcaroJordano" target="blank">https://github.com/IcaroJordano</a>
+            </div>
             </div>
             </section>
     )

@@ -2,16 +2,23 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 0%;
   margin: 0%;
+  background-color: #0a0a0a;
 }
-.light{
+.light{ 
   background-color: #F5F5F7;
 }
 .dark{
   background-color:#171717;
 }
 html ::-webkit-scrollbar{
-  width: 8px;
+  width: 5px;
   background-color:#F5F5F7;
+
+}
+html .dark ::-webkit-scrollbar{
+  background-color:#171717;
+  width: 5px;
+  /* background-color:#F5F5F7; */
 
 }
 html ::-webkit-scrollbar-thumb{
@@ -25,6 +32,7 @@ html{
 
 @media(min-width:768px){
   .App{
-    padding-top: 5%;
+    padding-top: 4%;
+    /* height: 100%; */
   }
 }
