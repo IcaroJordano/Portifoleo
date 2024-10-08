@@ -23,7 +23,7 @@ export function CardProjects({imagem}) {
                 <span>API</span> */}
             </div>
             <a href=""><IoEye title='ver deploy' className="deploy"></IoEye></a>
-            <a href=""><LuArrowUpRight title='mais sobre'className="ver_mais" ></LuArrowUpRight></a>
+            {/* <a href=""><LuArrowUpRight title='mais sobre'className="ver_mais" ></LuArrowUpRight></a> */}
         </div>
     )
 }

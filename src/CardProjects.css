@@ -111,7 +111,7 @@
     right: 5%;
 }
 .card_projects .deploy{
-    right: 20%;
+    right: 10%;
 }
 @media(min-width:768px){
     .card_projects{
