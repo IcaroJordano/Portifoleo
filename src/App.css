@@ -2,6 +2,7 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 0%;
   margin: 0%;
+  background-color: #0a0a0a;
 }
 *{
   transition: 0.5s  ease;
@@ -12,16 +13,29 @@
 .dark{
   background-color:#171717;
 }
-::-webkit-scrollbar{
-  width: 8px;
-  background-color:#171717;
+html ::-webkit-scrollbar{
+  width: 5px;
+  background-color:#F5F5F7;
 
 }
-::-webkit-scrollbar-thumb{
+html .dark ::-webkit-scrollbar{
+  background-color:#171717;
+  width: 5px;
+  /* background-color:#F5F5F7; */
+
+}
+html ::-webkit-scrollbar-thumb{
   border-radius: 25px;
   color: #10b981be;
   background-color: #10b981be;
 }
 html{
   scroll-behavior: smooth;
+}
+
+@media(min-width:768px){
+  .App{
+    padding-top: 4%;
+    /* height: 100%; */
+  }
 }

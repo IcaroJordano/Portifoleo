@@ -62,3 +62,38 @@
 .dark .CardMetodologias a{
     color: white;
 }
+.CardMetodologias .mais{
+    display: none;
+}
+@media(min-width:768px){
+    .CardMetodologias{
+        border-radius: 15px;
+        width: 20%;
+        height: 45vh;
+        margin: 2% ;
+        /* justify-content: space-between; */
+    }
+    .CardMetodologias .mais{
+        display: flex;
+    }
+    .CardMetodologias .top .icon{
+        padding: 0%;
+    }
+    .CardMetodologias .top{
+        margin: 0%;
+        padding: 5% 0 0 0 ;
+    }
+    .CardMetodologias .top h2{
+        font-size: 25px;
+    }
+    .CardMetodologias p{
+        padding: 0% 0 0 8%;
+        margin: 0% 0 0% 0;
+        font-size: 18px;
+        width: 90%;
+    }
+    .CardMetodologias a{
+            padding: 10% 0 0% 8%;
+
+    }
+}

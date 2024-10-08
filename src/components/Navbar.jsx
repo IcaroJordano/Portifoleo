@@ -10,6 +10,7 @@ import { BsPeople} from "react-icons/bs";
 import { BsPerson } from "react-icons/bs";
 import { BsRocketTakeoff } from "react-icons/bs";
 import { NavbarMobile } from './NavbarMobile';
+import { BiCodeBlock } from "react-icons/bi";
 import { MenuLateral } from './MenuLateral';
 import { useState } from 'react';
 
@@ -39,6 +40,7 @@ export function Navbar({setTema,tema}) {
             <div className='links'>
                 <a href="#Home"> <GoHome></GoHome> Home</a>
                 <a href="#Sobre"><BsPerson ></BsPerson> Sobre</a>
+                <a href="#soft_skills"><BiCodeBlock></BiCodeBlock> Skills</a>
                 <a href="#Projetos"><BsRocketTakeoff></BsRocketTakeoff> Projetos</a>
                 <a href="#Contact"><BsPeople></BsPeople> Contato</a>
 

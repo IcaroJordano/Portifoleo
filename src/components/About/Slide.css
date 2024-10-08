@@ -32,3 +32,9 @@
 
     }
 }
+@media(min-width:768px){
+    .Slide .logos_slide svg{
+        margin: 0% 100px;
+        scale: 4.5;
+    }
+}

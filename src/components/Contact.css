@@ -78,3 +78,100 @@
 .dark .Contact a{
     color: white;
 }
+.Contact video{
+    display: none;
+}
+@media(min-width:768px){
+    .Contact{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Contact h2{
+        /* margin: 5% 40% 2% 5%; */
+        width: 10%;
+        font-size: larger;
+        /* padding: 1% 3%; */
+        margin: 5% 80% 2% 2.5%;
+        width: 9%; 
+        padding: 1% 1%;
+        height: 3vh;
+        /* text-align: center; */
+        font-weight: 100;
+        color: rgb(128, 128, 128);
+    }
+    .Contact h2 svg{
+        font-size: 20px;
+        margin: 0%;
+        color: black;
+        /* font-weight:500; */
+    }
+    .dark .Contact h2{
+        color: rgba(209, 209, 209, 0.664);
+    }
+    .dark .Contact h2 svg{
+        color: white;
+    }
+    .Contact .cards{
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #4ade80; */
+    }
+    .Contact .card_contact{
+        width:  40%;
+        height: 18vh;
+        margin: 2%;
+        overflow: hidden;
+        padding: 0%;
+        flex-direction:row-reverse ;
+    }
+    .Contact .card_contact a{
+        margin: 10% 10%;
+        font-size: 18px;
+        /* font-weight: 100;
+        list-style: none; */
+        /* background-color: #4ade80; */
+    }
+    .Contact .card_contact svg{
+        font-size: 50px;
+    }
+    .Contact h3{
+        display: none;
+        margin: 0 20% 0 5%;
+        width: 60vw;
+        color: #262626;
+        font-size: 45px;
+        /* background-color: #4ade80; */
+        /* font-weight:100; */
+    }
+    .Contact .card_contact .top{
+        object-fit: cover;
+        /* width: 15%; */
+        margin: 0%;
+        margin: 0% 5%;
+        /* background-color: red; */
+    }
+    .Contact .video{
+        overflow:hidden;
+        width: 35%;
+        max-height: 70vh;
+        object-fit: cover;
+        margin-left: 5%;
+        cursor: pointer;
+        border-radius: 5%;
+    }
+    .Contact video{
+        width: 100%;
+        max-height: 70vh;
+        display: flex;
+        scale: 2;
+        opacity: 0.9;
+    }
+    .Contact h3{
+        margin-bottom: 5%;
+    }
+}

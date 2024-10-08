@@ -21,10 +21,14 @@ export function Metodologias() {
             <AiOutlinePullRequest></AiOutlinePullRequest>
         </CardMetodologias>
 
-        <CardMetodologias title={'MOBILE FIRST'}>
-            <BiMobileAlt></BiMobileAlt>
-        </CardMetodologias>
+                <CardMetodologias title={'MOBILE FIRST'}>
+                    <BiMobileAlt></BiMobileAlt>
+                </CardMetodologias>
+                <CardMetodologias title={'MOBILE FIRST'}>
+                    <BiMobileAlt></BiMobileAlt>
+                </CardMetodologias>
+            </div>
 
-    </section>
+        </section>
     )
 }
