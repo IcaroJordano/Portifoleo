@@ -38,13 +38,40 @@
 
 
 @media(min-width:768px){
-    .metodologias .title{
+    /* .metodologias .title{
         margin: 0% 0 2% 5%;
         width: 15%;
         font-size: larger;
+    } */
+
+    .metodologias .title{
+        /* margin: 5% 40% 2% 5%; */
+        /* width: 10%; */
+        font-size: larger;
+        /* padding: 1% 3%; */
+        margin: 5% 80% 2% 2.5%;
+        width: 11%; 
+        padding: 1% 1%;
+        height: 3vh;
+        /* text-align: center; */
+        font-weight: 100;
+        color: rgb(128, 128, 128);
+    }
+    .metodologias .title svg{
+        font-size: 20px;
+        margin: 0%;
+        color: black;
+        /* font-weight:500; */
+    }
+    .dark .metodologias .title{
+        color: rgba(209, 209, 209, 0.664);
+    }
+    .dark .metodologias .title svg{
+        color: white;
     }
     .metodologias .cards{
         width: 100%;
+        /* padding-left: 2%; */
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;

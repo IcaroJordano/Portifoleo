@@ -2,8 +2,9 @@ import "./CardProjects.css"
 
 import { LuArrowUpRight } from "react-icons/lu";
 
+import { IoEye } from "react-icons/io5";
 
-import { AiOutlineLink } from "react-icons/ai";
+// import { IoEye } from "react-icons/ai";
 
 
 export function CardProjects({imagem}) {
@@ -21,7 +22,7 @@ export function CardProjects({imagem}) {
                 <span>API</span>
                 <span>API</span> */}
             </div>
-            <a href=""><AiOutlineLink title='ver deploy' className="deploy"></AiOutlineLink></a>
+            <a href=""><IoEye title='ver deploy' className="deploy"></IoEye></a>
             <a href=""><LuArrowUpRight title='mais sobre'className="ver_mais" ></LuArrowUpRight></a>
         </div>
     )

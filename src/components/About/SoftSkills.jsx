@@ -7,7 +7,7 @@ import oratoria from '../../midias/speaking.png'
 
 export function SoftSkils() {
     return (
-        <section className="soft_skills">
+        <section className="soft_skills" id="soft_skills" >
             {/* <h2> Soft Skills. <span className="line"> ______________</span> </h2> */}
             <h2 class="title"><FaFeatherAlt></FaFeatherAlt> Soft Skills</h2>
             <div className="cards">

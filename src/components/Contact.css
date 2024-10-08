@@ -90,12 +90,26 @@
         /* margin: 5% 40% 2% 5%; */
         width: 10%;
         font-size: larger;
-        padding: 1% 3%;
-        height: 4vh;
-        margin: 5% 0 2% 5%;
-        width: 8%;
-        padding: 1% 2%;
-        /* height: 4vh; */
+        /* padding: 1% 3%; */
+        margin: 5% 80% 2% 2.5%;
+        width: 9%; 
+        padding: 1% 1%;
+        height: 3vh;
+        /* text-align: center; */
+        font-weight: 100;
+        color: rgb(128, 128, 128);
+    }
+    .Contact h2 svg{
+        font-size: 20px;
+        margin: 0%;
+        color: black;
+        /* font-weight:500; */
+    }
+    .dark .Contact h2{
+        color: rgba(209, 209, 209, 0.664);
+    }
+    .dark .Contact h2 svg{
+        color: white;
     }
     .Contact .cards{
         width: 60%;
@@ -116,7 +130,7 @@
     }
     .Contact .card_contact a{
         margin: 10% 10%;
-        font-size: 20px;
+        font-size: 18px;
         /* font-weight: 100;
         list-style: none; */
         /* background-color: #4ade80; */

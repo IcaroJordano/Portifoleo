@@ -37,7 +37,8 @@
 
 @media(min-width:768px){
     .card_soft_skills{
-        width: 35%;
+        width: 15%;
+        height: 40vh;
         border: solid 1px rgba(128, 128, 128, 0.267);
         margin: 1% 0;
         display: flex;
@@ -48,9 +49,10 @@
         /* background-color: aqua; */
     }
     .card_soft_skills img{
-        width: 15%;
+        width: 30%;
     }
     .card_soft_skills h2{
+        margin-left: 5%;
         width: 50%;
         font-size: 35px;
         /* background-color: aqua; */

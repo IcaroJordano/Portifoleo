@@ -13,9 +13,9 @@ export function Projects() {
             <CardProjects imagem={image}></CardProjects>
             <CardProjects imagem={'https://miro.medium.com/v2/resize:fit:1400/1*pVxCmIW9kV28plnkC9mpMA.jpeg'}></CardProjects>
             <CardProjects imagem={image}></CardProjects>
+            {/* <CardProjects imagem={image}></CardProjects>
             <CardProjects imagem={image}></CardProjects>
-            <CardProjects imagem={image}></CardProjects>
-            <CardProjects imagem={image}></CardProjects>
+            <CardProjects imagem={image}></CardProjects> */}
             </div>
         </section>
     )

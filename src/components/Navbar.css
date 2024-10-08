@@ -67,10 +67,12 @@
         width: 15%;
     }
     .Navbar .icons{
+        /* background-color: aqua; */
         margin-right: 1%;
-        width: 15%;
+        width: 10%;
         border: none;
         align-items: center;
+        cursor: pointer;
     }
     .Navbar .icons #menu{
         display: none;
@@ -90,11 +92,14 @@
         display: block;
     }
     .links{
-        width: 70%;
+        /* background-color: aqua; */
+        width: 50%;
+        margin-left: 2.5%;
         display: flex;
         justify-content: space-around;
         font-size: larger;
         align-items: center;
+        text-decoration: underline;
     }
     .light .Navbar .links a{ 
         color: #0f0f0f;

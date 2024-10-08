@@ -15,7 +15,8 @@
 }
 .card_projects .tags :hover{
     /* color:#047857; */
-    background-color: #4ade80;
+    background-color: #0d9488;
+    color:white;
 }
 .dark .card_projects{
     background-color: #1b1b1b;
@@ -65,7 +66,7 @@
     font-size: medium;
 }
 .card_projects a :hover{
-    background-color: #4ade80;
+    background-color: #0d9488;
 }
 .dark .card_projects span{
     /* border: white solid 1px; */
@@ -135,7 +136,7 @@
         margin-top: 0%;
     }
     .card_projects a :hover{
-        opacity: 0.5;
+        opacity: 0.8;
     }
     /* .card_projects *{
         margin: 0%;
@@ -150,6 +151,10 @@
         width: 30%;
         flex-wrap: nowrap;
         /* overflow: scroll; */
+    }
+    .card_projects svg{
+        color: white;
+        padding: 1.8%;
     }
     /* .card_projects .tags::-webkit-scrollbar{ */
       /* width: 10px; */

@@ -122,10 +122,10 @@
         width: 90%; */
         height: 60vh;
         margin-top: 0%;
-        padding-top: 0%;
+        padding-top:5%;
         display: flex;
         justify-content: space-around;
-        flex-direction: row;
+        flex-direction: row-reverse;
         /* border: 1px solid rgba(128, 128, 128, 0.219); */
         border-bottom: none;
         padding-bottom: 5%;
@@ -135,8 +135,8 @@
     .Home .image{
         margin-top: 0%;
         padding-top: 0%;
-        width: 25vw;
-        height: 25vw;
+        width: 30vw;
+        height: 30vw;
         border-radius: 3%;
         background-color: #f5f5f5;
     }
@@ -150,20 +150,33 @@
     .Home .textos{
         display: flex;
         flex-direction: column;
-        width: 50vw;
-        height:60vh;
+        text-align: left;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 30vw;
+        height:40vh;
         /* align-items: center; */
-        justify-content: space-around;
+        /* justify-content: space-around; */
         /* background-color: #22c55e; */
+    }
+    .Home .apresentacao{
+        margin: 0%;
+        align-items: baseline;
+        justify-content: baseline;
+        /* background-color: #171717; */
     }
     .Home .apresentacao h2{
         margin: 0%;
+    color: #047857;
+    /* color: ; */
         /* background-color: #22c55e; */
-        font-size: 1.5em;
+        letter-spacing: 0.2cap;
+        font-size: 1.7em;
     }
     .Home .apresentacao h1{
-        font-size: 5em;
+        font-size: 4em;
         margin: 0%;
+        letter-spacing: 0.4cap;
         font-weight: 100;
         /* width: 75%; */
         /* text-wrap: wrap; */
@@ -186,23 +199,26 @@
         margin: 0%;
     }
     .Home p{
-        margin: 0%;
-        width: 50%;
+        margin: 3% 0% 10%;
+        width: 100%;
+        text-align: left;
         /* height: vh; */
         /* background-color: #22c55e; */
         display: flex;
     }
     .Home .buttons{
         margin: 0%;
-        width: 70%;
+        width: 80%;
         /* background-color: red; */
+        /* alig */
+        justify-content:space-between ;
     }
     .Home button{
     /* background-color: #22c55e; */
     /* color: white; */
     border: solid 1px gray;
-        border-radius: 45px;
+        border-radius: 15px;
         margin: 0% 0%;
-        width: 30%;
+        width: 40%;
     }
 }

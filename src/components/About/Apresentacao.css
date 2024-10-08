@@ -37,10 +37,11 @@
 }
 @media(min-width:768px){
     .Apresentacao h2{
+        padding: 0% 2.5%;
         font-size: 30px;
     }
-
     .Apresentacao h3{
+        padding: 0% 2.5%;
         font-size: 40px;
     }
     .Apresentacao h3 span{
@@ -51,11 +52,16 @@
         width: 80%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: 100;
+        padding: 0% 2.5%;
+
     }
     .Apresentacao br{
         display: none;
     }
     .Apresentacao .mais{
         display: flex;
+    }
+    .Apresentacao{
+        padding: 0% 0%;
     }
 }
